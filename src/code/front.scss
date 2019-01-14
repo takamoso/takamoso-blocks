@@ -1,0 +1,35 @@
+@import 'token';
+
+pre[class*=language-] {
+  display: block;
+  padding: 1.1em 1.25em;
+  line-height: 1.57;
+}
+pre[class*=language-] code,
+:not(pre):not([class*="language-"]) code {
+  font-weight: 500;
+  font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+pre[class*="language-"],
+pre[class*="language-"] code {
+  text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	tab-size: 2;
+	hyphens: none;
+}
+pre[class*="language-"] {
+  margin: 1.15em 0;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+pre[class*="language-"] code {
+  display: inline-block;
+  position: relative;
+  min-width: 100%;
+  z-index: 3;
+}
